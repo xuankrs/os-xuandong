@@ -1,15 +1,12 @@
-# <center>旋动密信
-<center>纵然寻觅，情深难觅
+#  <center> 旋动密信
+纵然寻觅，情深难觅
   <br>
-[**旋刻官网**](https://xuankr.com)｜[**演示地址**](https://voodong.cn)｜[帮助文档](https://docs.voodong.cn)</center>
+[**旋刻官网**](https://xuankr.com)&nbsp;&nbsp;｜&nbsp;&nbsp;[**演示地址**](https://voodong.cn)&nbsp;&nbsp;｜&nbsp;&nbsp;[**帮助文档**](https://docs.voodong.cn)</center>
   
   ---
   
 ## 介绍
 旋动是一个简单的匿名信件收发系统，让用户能够发送匿名信件，支持阅后即焚功能。采用简洁的界面设计和强大的加密机制，确保信息仅被预期收件人查看，且可设置查看后自动销毁。
-  
-
-<br>
 
   ---
   
@@ -23,12 +20,9 @@
 ```
 <br>
 1. 下载压缩包并上传到站点根目录。<br>
-2. 访问http://yourdomain/install.php<br>
+2. 访问http://example.com/install.php<br>
 3. 执行安装，然后返回首页<br><br>
 安装后请注意删除install.php文件。
-
-
-<br>
 
 ---
 
@@ -39,8 +33,6 @@
 - 轻松查询 ：支持按收信人查找信件。
 - 简易安装 ：提供三步安装向导，快速部署密信系统。
 - 响应式设计 ：适配各种设备屏幕，提供一致的用户体验。
-
-<br>
 
 ---
 
@@ -56,19 +48,17 @@
 ## 项目结构
 
 ```
-/Users/wanghaoxin/Desktop/zrmessage/
+/xuandong
+├── assets/
+│   └── style.css
+│   └── tailwind.config.js
 ├── config.php       # 数据库配置文件
 ├── install.php      # 安装向导
 ├── new-message.php  # 发送消息页面
 ├── strong-encryption.php  # 加密消息查看页面
 └── view-message.php # 消息查询页面
 ```
-<br>
-
 ---
 
 ## 更多信息
-如有任何问题，请与我们联系：
-pd@xuankr.com
-
-旋动产品团队未对产品进行任何商业化，集体为爱发电。如果您喜欢本产品，可在个人资金条件允许的情况下向我们打赏一些赏金，非常感谢！
+如有任何问题，请与我们联系：pd@xuankr.com<br>旋动产品团队未对产品进行任何商业化，集体为爱发电。如果您喜欢本产品，可在个人资金条件允许的情况下向我们打赏一些赏金，非常感谢！
