@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言成功</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="assets/tailwind.config.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body class="flex flex-col justify-between min-h-screen px-8 py-12">
+    <header class="header px-4 py-3">
+        <div class="flex items-center justify-between max-w-[420px] mx-auto">
+            <a href="index.php" class="back-button p-2 -ml-2 rounded-full hover:bg-gray-100 active:bg-gray-200">
+                <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                </svg>
+            </a>
+            <div class="text-lg font-medium text-gray-700">&nbsp;SUCCESSFUL</div>
+            <div class="w-10"></div>
+        </div>
+    </header>
+    <div class="flex-1 flex flex-col items-center justify-center">
+        <h1 class="text-3xl font-medium text-gray-700 mb-2">留言成功</h1>
+        <p class="text-base text-gray-500 text-center">现在您可以查看您的留言了<br>如果启用了阅后即焚，则信件无法被直接搜索，访问链接已复制，访问一次即失效。</p>
+    </div>
+
+    <div class="w-full max-w-[420px] mx-auto">
+        <div class="space-y-4 mb-6">
+            <button class="login-button w-full py-4 px-4 bg-primary text-white rounded-button flex items-center justify-center space-x-2 whitespace-nowrap text-lg" onclick="window.location.href='view-message.php'">
+                <span style="color:#000000">查找留言</span>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
