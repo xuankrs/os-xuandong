@@ -202,15 +202,6 @@ PHP;
             <!-- 步骤1：数据库配置 -->
             <?php if($step == 1): ?>
             <div class="p-6 md:p-8 animate-fadeIn">
-                <h2 class="text-xl font-bold text-gray-800 mb-6">旋刻科技开源代码使用提示</h2>
-                <p>一旦您开始安装，即表示您同意下述提示说明：<br><br>
-                个人用户：<br>可自由使用、修改、分发代码，但禁止将代码或衍生作品用于任何商业目的（包括直接销售、内部分发收费、广告收入等）。<br><br>
-                企业用户：<br>
-                使用代码需在每个页面显著位置添加指向 xuankr.com 的超链接。<br>
-                禁止将代码或衍生作品商业化（定义同上）。<br><br>
-                共同要求：所有二次开发成果必须公开源码（AGPLv3）并保留本使用提示。<br>愿共同构建良好的开源生态！完整协议：根目录/LICENSE。</p>
-            </div>
-            <div class="p-6 md:p-8 animate-fadeIn">
                 <h2 class="text-xl font-bold text-gray-800 mb-6">数据库配置</h2>
                 <form method="post" class="space-y-5">
                     <div>
