@@ -1,5 +1,5 @@
 #  <center> 旋动密信
-纵然寻觅，情深难觅
+开源的匿名信件收发系统，可用于校园墙/树洞等场景。
   <br>
 [**旋刻官网**](https://xuankr.com)&nbsp;&nbsp;｜&nbsp;&nbsp;[**演示地址**](https://voodong.cn/demo)&nbsp;&nbsp;｜&nbsp;&nbsp;[**帮助文档**](https://docs.voodong.cn)</center>
   
